@@ -1,9 +1,10 @@
 import React from 'react';
+import Table from '../Components/Table';
 
 const Home = () => {
   return (
     <div>
-      <p> Meu guru </p>
+      <Table />
     </div>
   );
 };
