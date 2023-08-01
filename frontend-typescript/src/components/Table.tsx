@@ -28,41 +28,50 @@ function Table() {
     );
 
     return (
-        <div>
-            <h1>Painel de Controle - Meu Guru</h1>
-            <label htmlFor="searchInput">Busque o usuário:</label>
-            <input
-                type="text"
-                id="searchInput"
-                value={search}
-                onChange={handleChange}
-                placeholder="Buscar por nome ou e-mail"
-            />
+        <div className="main container p-5">
+            <h1 className="display-6 text-center mb-4">Painel de Controle</h1>
+            <div className="row justify-content-center mb-3">
+                <div className="col-12 col-md-6">
+                    <label className="form-label" htmlFor="searchInput">
+                        Busque o usuário:
+                    </label>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        value={search}
+                        onChange={handleChange}
+                        placeholder="Buscar por nome ou e-mail"
+                        className="form-control"
+                    />
+                </div>
+            </div>
             {filteredUsers.length === 0 ? (
-                <p>Usuário não encontrado</p>
+                <p className="text-center">Usuário não encontrado</p>
             ) : (
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Email</th>
-                            <th>Idade</th>
-                            <th>Sexo</th>
-                            <th>Cidade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {filteredUsers.map((user) => (
-                            <tr key={user.id}>
-                                <td>{user.nome}</td>
-                                <td>{user.email}</td>
-                                <td>{user.idade}</td>
-                                <td>{user.sexo}</td>
-                                <td>{user.cidade}</td>
+                <div className="table-responsive">
+                    <table className="table table-bordered border-primary">
+                        <thead className="bg-primary text-white border-2">
+                            <tr className="border-2">
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Idade</th>
+                                <th>Sexo</th>
+                                <th>Cidade</th>
                             </tr>
-                        ))}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            {filteredUsers.map((user) => (
+                                <tr className="border-2" key={user.id}>
+                                    <td >{user.nome}</td>
+                                    <td>{user.email}</td>
+                                    <td>{user.idade}</td>
+                                    <td>{user.sexo}</td>
+                                    <td>{user.cidade}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
             )}
         </div>
     );
