@@ -2,7 +2,7 @@ const users = [
     {
       id: 1,
       nome: 'João Silva',
-      email: 'joao.silva@meuguru',
+      email: 'joao.silva@meuguru.com',
       password: 'guru123',
       idade: 28,
       sexo: 'Masculino',
@@ -11,7 +11,7 @@ const users = [
     {
       id: 2,
       nome: 'Maria Souza',
-      email: 'maria.souza@meuguru',
+      email: 'maria.souza@meuguru.com',
       password: 'guru456',
       idade: 35,
       sexo: 'Feminino',
@@ -20,7 +20,7 @@ const users = [
     {
       id: 3,
       nome: 'Pedro Oliveira',
-      email: 'pedro.oliveira@meuguru',
+      email: 'pedro.oliveira@meuguru.com',
       password: 'guru789',
       idade: 22,
       sexo: 'Masculino',
@@ -29,7 +29,7 @@ const users = [
     {
       id: 4,
       nome: 'Ana Santos',
-      email: 'ana.santos@meuguru',
+      email: 'ana.santos@meuguru.com',
       password: 'guru987',
       idade: 30,
       sexo: 'Feminino',
@@ -38,7 +38,7 @@ const users = [
     {
       id: 5,
       nome: 'José Pereira',
-      email: 'jose.pereira@meuguru',
+      email: 'jose.pereira@meuguru.com',
       password: 'guru321',
       idade: 26,
       sexo: 'Masculino',
@@ -47,7 +47,7 @@ const users = [
     {
       id: 6,
       nome: 'Carla Costa',
-      email: 'carla.costa@meuguru',
+      email: 'carla.costa@meuguru.com',
       password: 'guru654',
       idade: 29,
       sexo: 'Feminino',
@@ -56,7 +56,7 @@ const users = [
     {
       id: 7,
       nome: 'Mário Fernandes',
-      email: 'mario.fernandes@meuguru',
+      email: 'mario.fernandes@meuguru.com',
       password: 'guru987',
       idade: 32,
       sexo: 'Masculino',
@@ -65,7 +65,7 @@ const users = [
     {
       id: 8,
       nome: 'Fernanda Oliveira',
-      email: 'fernanda.oliveira@meuguru',
+      email: 'fernanda.oliveira@meuguru.com',
       password: 'guru654',
       idade: 31,
       sexo: 'Feminino',
@@ -74,7 +74,7 @@ const users = [
     {
       id: 9,
       nome: 'Ricardo Almeida',
-      email: 'ricardo.almeida@meuguru',
+      email: 'ricardo.almeida@meuguru.com',
       password: 'guru321',
       idade: 27,
       sexo: 'Masculino',
@@ -83,7 +83,7 @@ const users = [
     {
       id: 10,
       nome: 'Juliana Silva',
-      email: 'juliana.silva@meuguru',
+      email: 'juliana.silva@meuguru.com',
       password: 'guru789',
       idade: 24,
       sexo: 'Feminino',
@@ -92,7 +92,7 @@ const users = [
     {
       id: 11,
       nome: 'Gabriel Santos',
-      email: 'gabriel.santos@meuguru',
+      email: 'gabriel.santos@meuguru.com',
       password: 'guru123',
       idade: 33,
       sexo: 'Masculino',
@@ -101,7 +101,7 @@ const users = [
     {
       id: 12,
       nome: 'Larissa Costa',
-      email: 'larissa.costa@meuguru',
+      email: 'larissa.costa@meuguru.com',
       password: 'guru456',
       idade: 25,
       sexo: 'Feminino',
@@ -110,7 +110,7 @@ const users = [
     {
       id: 13,
       nome: 'Daniel Oliveira',
-      email: 'daniel.oliveira@meuguru',
+      email: 'daniel.oliveira@meuguru.com',
       password: 'guru987',
       idade: 28,
       sexo: 'Masculino',
@@ -119,7 +119,7 @@ const users = [
     {
       id: 14,
       nome: 'Mariana Fernandes',
-      email: 'mariana.fernandes@meuguru',
+      email: 'mariana.fernandes@meuguru.com',
       password: 'guru654',
       idade: 29,
       sexo: 'Feminino',
@@ -128,7 +128,7 @@ const users = [
     {
       id: 15,
       nome: 'Gustavo Pereira',
-      email: 'gustavo.pereira@meuguru',
+      email: 'gustavo.pereira@meuguru.com',
       password: 'guru321',
       idade: 32,
       sexo: 'Masculino',
@@ -137,7 +137,7 @@ const users = [
     {
       id: 16,
       nome: 'Carolina Costa',
-      email: 'carolina.costa@meuguru',
+      email: 'carolina.costa@meuguru.com',
       password: 'guru789',
       idade: 27,
       sexo: 'Feminino',
@@ -146,7 +146,7 @@ const users = [
     {
       id: 17,
       nome: 'Fábio Oliveira',
-      email: 'fabio.oliveira@meuguru',
+      email: 'fabio.oliveira@meuguru.com',
       password: 'guru654',
       idade: 34,
       sexo: 'Masculino',
@@ -155,7 +155,7 @@ const users = [
     {
       id: 18,
       nome: 'Aline Almeida',
-      email: 'aline.almeida@meuguru',
+      email: 'aline.almeida@meuguru.com',
       password: 'guru321',
       idade: 26,
       sexo: 'Feminino',
