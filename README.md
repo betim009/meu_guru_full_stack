@@ -43,8 +43,9 @@ cd backend
 npm run initdb
 ```
 
-### Inicia a aplicação
+### Inicia a aplicação 
 ```shell
+npm i
 npm run start
 ```
 A aplicação estará disponível na porta 3000, na rota /users:
@@ -73,4 +74,23 @@ Body:
   "sexo": "Masculino",
   "cidade": "Alegre"
 }
+
+### Front-End da aplicação:
+## Iniciando:
+```shell
+cd frontend-typescript
+npm i 
+npm run dev
+```
+
+### Testes:
+```shell
+npm test
+```
+
+
+### Imagem da aplicação:
+
+![image](https://github.com/betim009/meu_guru_full_stack/assets/62117863/7a102e14-32fa-4e6b-9e90-5460572b273f)
+
 
